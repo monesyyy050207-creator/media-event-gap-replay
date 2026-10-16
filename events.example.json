@@ -1,0 +1,5 @@
+[
+  {"id":"asset-42-ingested","asset_id":"asset-42","stage":"ingested","delivered":true},
+  {"id":"asset-42-processed","asset_id":"asset-42","stage":"processed","delivered":false},
+  {"id":"asset-42-creator","asset_id":"asset-42","stage":"creator_ready","delivered":false}
+]

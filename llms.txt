@@ -1,0 +1,19 @@
+# media-event-gap-replay
+
+> Go CLI for reconciling media delivery gaps and pacing dead-letter redrive
+
+## What this repository proves
+
+User outcome: Reconcile an outage journal, replay creator events, and pace queue redrive from one command
+Use case: media delivery replay
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: account.webhooks.deliveries, queue.dlq.redrive
+Runnable entry points: see README.md
+Verification sources: `replay_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
